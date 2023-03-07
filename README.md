@@ -174,8 +174,18 @@ Terminal=false
 Icon=/opt/lampp/htdocs/favicon.ico
 Terminal=false
 
-
+command 
 SAVE THIS  file with name Xampp.desktop
 
 press right click on icon at give peermission to launch 
+sudo /etc/init.d/apache2 stop
+
+sudo /etc/init.d/mysql stop
+
+sudo /etc/init.d/proftpd stop
+sudo /opt/lampp/lampp restart
+
+ cd /opt/lampp/ -->sudo ./manager-linux-x64.run
+
+http://localhost/phpmyadmin/
 
